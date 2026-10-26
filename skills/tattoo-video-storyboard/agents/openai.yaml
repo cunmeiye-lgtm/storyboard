@@ -1,0 +1,7 @@
+interface:
+  display_name: "纹身贴分镜与视频提示词"
+  short_description: "从一张纹身贴展示图生成独立分镜参考图、图片映射与中文视频提示词"
+  default_prompt: "使用 $tattoo-video-storyboard，根据这张款式展示图直接生成分镜参考图、图片编号映射和完整中文视频生成提示词。"
+
+policy:
+  allow_implicit_invocation: true
