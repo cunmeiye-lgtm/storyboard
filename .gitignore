@@ -1,0 +1,21 @@
+# Credentials and private local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+
+# Product inputs and generated artifacts belong outside the skill package
+input/
+output/
+tmp/
+archive/
+
+# Runtime / editor caches
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
