@@ -1,0 +1,7 @@
+interface:
+  display_name: "草本纹身贴分镜与视频提示词"
+  short_description: "根据草本纹身贴展示图生成贴用、透明初态和显色分镜及中文视频提示词"
+  default_prompt: "使用 $herbal-tattoo-storyboard，根据这张草本纹身贴展示图生成独立分镜图、图片编号映射和完整中文视频提示词，保留放到皮肤上的动作及渐显色逻辑。"
+
+policy:
+  allow_implicit_invocation: true
